@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
 
             <section className='w-screen h-screen relative'>
-                <div className='w-full absolute h-full bg-gradient-to-br from-blue-300 via-slate-700 to-purple-900 opacity-80'></div>
+                <div className='w-full absolute h-full bg-gradient-to-br from-blue-300 via-slate-500 to-purple-900 opacity-80'></div>
                 <div className='hero inset-0 h-full w-full bg-hero-pattern bg-cover bg-no-repeat bg-fixed opacity-15'></div>
 
                 <div className='font-body'>
