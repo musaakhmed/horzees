@@ -28,11 +28,11 @@ const Hero = () => {
 
                             {/*Call to Action Button*/}
                             <div className='hidden lg:block'>
-                                <div class='grid gap-8 items-start justify-center ml-72'>
-                                    <div class='relative group'>
-                                        <div class='absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
-                                        <button class='relative px-7 py-3 bg-black rounded-lg leading-none flex items-center'>
-                                            <span class='text-white text-lg group-hover:text-gray-100 text-gradient-to-right transition duration-200'>
+                                <div className='grid gap-8 items-start justify-center ml-72'>
+                                    <div className='relative group'>
+                                        <div className='absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
+                                        <button className='relative px-7 py-3 bg-black rounded-lg leading-none flex items-center'>
+                                            <span className='text-white text-lg group-hover:text-gray-100 text-gradient-to-right transition duration-200'>
                                                 Connect Wallet
                                             </span>
                                         </button>
