@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className='hero inset-0 h-full w-full bg-hero-pattern bg-cover bg-no-repeat bg-fixed opacity-15'></div>
 
                 <div className='font-body'>
-                    <div className='absolute w-1/3 ml-auto mr-72 h-full inset-0 flex flex-col justify-center z-30'>
+                    <div className='absolute w-1/3 ml-72 mr-auto h-full inset-0 flex flex-col justify-center z-30'>
                         <h1 className='text-7xl text-white my-5 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-500 via-purple-500 to-pink-500'>
                             Horzees of Indarados
                         </h1>
