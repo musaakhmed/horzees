@@ -8,10 +8,10 @@ const Hero = () => {
                     <div className='pt-5 '>
                         <div className='flex justify-around items-center'>
                             {/*Primary Menu*/}
-                            <div className='flex items-center space-x-10 text-3xl mr-72'>
-                                <Link href='/rooms'>
+                            <div className='flex items-center space-x-10 text-3xl mr-72 pt-5'>
+                                <Link href='/'>
                                     <a className='text-white transition duration-500 ease-in-out px-3 py-2 rounded-md text-md font-medium'>
-                                        Rooms
+                                        Home
                                     </a>
                                 </Link>
                                 <Link href='/about'>
@@ -19,9 +19,9 @@ const Hero = () => {
                                         About
                                     </a>
                                 </Link>
-                                <Link href='/news'>
+                                <Link href='/whitepaper'>
                                     <a className='text-white transition duration-500 ease-in-out  px-3 py-2 rounded-md text-md font-medium'>
-                                        News
+                                        Whitepaper
                                     </a>
                                 </Link>
                             </div>
