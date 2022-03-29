@@ -7,9 +7,10 @@ module.exports = {
         extend: {
             backgroundImage: (theme) => ({
                 'hero-pattern': "url('/images/hero.jpg')",
+                'bg-image': "url('/images/bg.jpeg')",
             }),
             fontFamily: {
-                body: ['Josefin Sans'],
+                avenir: ['Avenir'],
             },
             animation: {
                 tilt: 'tilt 10s infinite linear',
@@ -29,5 +30,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require('daisyui')],
 }
