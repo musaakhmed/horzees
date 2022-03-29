@@ -33,7 +33,6 @@ const Faq = () => {
                         </p>
                     </div>
                 </div>
-
                 <div
                     tabIndex='0'
                     className='collapse collapse-arrow border border-base-300 bg-base-100 rounded-box mb-3'
