@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <>
             <section className='w-screen h-screen'>
-                <nav className='absolute top-0 w-full z-20 font-avenir font-extrabold py-3 bg-violet-900 bg-opacity-60'>
+                <nav className='absolute top-0 w-full z-20 font-avenir font-extrabold py-3'>
                     <div className='w-2/3 flex items-center justify-between mx-auto'>
                         {/*Primary Menu*/}
                         <div className=''>
