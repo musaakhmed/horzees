@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: (theme) => ({
-                'hero-pattern': "url('/images/hero.jpg')",
+                hero: "url('/images/hero.jpg')",
                 'bg-image': "url('/images/bg.jpeg')",
             }),
             fontFamily: {
@@ -21,10 +21,10 @@ module.exports = {
                         transform: 'rotate(0deg)',
                     },
                     '25%': {
-                        transform: 'rotate(0.5deg)',
+                        transform: 'rotate(1deg)',
                     },
                     '75%': {
-                        transform: 'rotate(-0.5deg)',
+                        transform: 'rotate(-1deg)',
                     },
                 },
             },
