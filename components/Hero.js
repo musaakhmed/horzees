@@ -2,26 +2,36 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <div className='font-avenir bg-hero bg-indigo-900 bg-blend-multiply h-screen w-screen bg-cover bg-no-repeat bg-center'>
-            <nav className='flex flex-col xl:px-10 py-6 justify-center items-center xl:flex-row xl:justify-between text-slate-200'>
-                <div className='uppercase text-xl xl:text-2xl font-extrabold flex-wrap flex-1'>
-                    <a href='' className='px-2 xl:px-5 flex-shrink-0'>
-                        Home
+        <div className='font-avenir bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center'>
+            <nav className='flex flex-col xl:px-10 py-6 items-right justify-center xl:flex-row xl:justify-between text-slate-200'>
+                <div className='text-xl xl:text-2xl flex-wrap flex-1'>
+                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                        hoi.Home
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        About
+                        hoi.Paper
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        Story
+                        hoi.Vision
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        Whitepaper
+                        hoi.Team
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        Indarados
+                        hoi.Races
+                    </a>
+                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                        <img
+                            src='/SVG/discord.webp'
+                            height='25px'
+                            width='25px'
+                        />
+                    </a>
+                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                        TW
                     </a>
                 </div>
-                <div className='px-2 xl:px-5 mt-5 xl:mt-0'>
+                {/* <div className='px-2 xl:px-5 mt-5 xl:mt-0'>
                     <div className='relative group'>
                         <div className='absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
                         <button className='relative px-5 py-4 xl:px-7 xl:py-3 bg-slate-900 rounded-lg leading-none'>
@@ -29,19 +39,17 @@ const Hero = () => {
                                 Connect Wallet
                             </span>
                         </button>
-                    </div>
-                </div>
+                    </div> 
+                </div> */}
             </nav>
 
-            <section className='flex flex-col xl:flex-row xl:justify-around xl:items-center xl:px-16'>
+            <section className='flex flex-col xl:flex-row xl:justify-around xl:items-center xl:px-16 text-center'>
                 <div className='h-full content-center items-center w-3/4 mx-auto justify-center'>
-                    <h1 className='text-4xl xl:text-7xl my-5 font-black text-center xl:text-left text-transparent bg-clip-text bg-gradient-to-br from-slate-300 via-purple-500 to-blue-700'>
+                    <h1 className='text-4xl xl:text-7xl my-5 font-black text-transparent bg-clip-text bg-gradient-to-br from-slate-300 via-purple-500 to-blue-700'>
                         Horzees of Indarados
                     </h1>
                     <span className='text-xl font-bold text-slate-200 '>
-                        Spread across the multiple climates of Indarados, 12
-                        different Horzee species have been in a great rivalry
-                        for centuries.
+                        A new experience in Solana
                     </span>
                     <div className='mt-5 flex justify-center items-center'>
                         <div className='relative group'>
@@ -53,13 +61,6 @@ const Hero = () => {
                             </button>
                         </div>
                     </div>
-                </div>
-                <div className='h-full items-end'>
-                    <img
-                        className=''
-                        src='images/horzees/epic/thor2.png'
-                        alt=''
-                    />
                 </div>
             </section>
         </div>
