@@ -10,7 +10,7 @@ module.exports = {
                 'bg-image': "url('/images/bg.jpeg')",
             }),
             fontFamily: {
-                avenir: ['Avenir'],
+                avenirblack: ['AvenirBlack'],
             },
             animation: {
                 tilt: 'tilt 10s infinite linear',

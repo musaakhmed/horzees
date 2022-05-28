@@ -4,21 +4,21 @@ const Hero = () => {
     return (
         <div className='bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center'>
             <nav className='flex flex-col px-10 py-6 text-teal-100'>
-                <div className='text-xl xl:text-2xl flex flex-wrap flex-1 flex-row justify-end font-extralight'>
+                <div className='text-xl xl:text-2xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight'>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        zee.Home
+                        Home
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        zee.Paper
+                        Paper
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        zee.Vision
+                        Vision
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        zee.Team
+                        Team
                     </a>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        zee.Races
+                        Races
                     </a>
                     <a
                         href=''
@@ -65,7 +65,7 @@ const Hero = () => {
                         A new experience in Solana
                     </div>
                 </div>
-                <div className=' flex flex-row max-w-5xl justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 text-xl text-center text-teal-700 font-semibold'>
+                <div className=' flex flex-row max-w-5xl justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 text-2xl text-center text-teal-700 font-semibold'>
                     Explore the Art
                 </div>
             </div>

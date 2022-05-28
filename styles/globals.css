@@ -6,7 +6,7 @@
 
 @layer base {
     @font-face {
-        font-family: 'avenir';
+        font-family: 'AvenirBlack';
         src: url('/fonts/AvenirLTStd-Black.otf') format('otf');
     }
 }
