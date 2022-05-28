@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Hero = () => {
     return (
         <div className='font-avenir bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center'>
-            <nav className='flex flex-col xl:px-10 py-6 items-right justify-center xl:flex-row xl:justify-between text-slate-200'>
-                <div className='text-xl xl:text-2xl flex-wrap flex-1'>
+            <nav className='flex flex-col xl:px-10 py-6  text-slate-200'>
+                <div className='text-xl xl:text-2xl flex flex-wrap flex-1 flex-row justify-end'>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
                         hoi.Home
                     </a>
@@ -20,15 +20,19 @@ const Hero = () => {
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
                         hoi.Races
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                    <a href='' className='px-2 flex-shrink-0'>
                         <img
                             src='/SVG/discord.webp'
                             height='25px'
                             width='25px'
                         />
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
-                        TW
+                    <a href='' className='px-2 xl:px-2 flex-shrink-0'>
+                        <img
+                            src='/SVG/twitter.webp'
+                            height='25px'
+                            width='25px'
+                        />
                     </a>
                 </div>
                 {/* <div className='px-2 xl:px-5 mt-5 xl:mt-0'>
@@ -43,11 +47,12 @@ const Hero = () => {
                 </div> */}
             </nav>
 
-            <section className='flex flex-col xl:flex-row xl:justify-around xl:items-center xl:px-16 text-center'>
-                <div className='h-full content-center items-center w-3/4 mx-auto justify-center'>
-                    <h1 className='text-4xl xl:text-7xl my-5 font-black text-transparent bg-clip-text bg-gradient-to-br from-slate-300 via-purple-500 to-blue-700'>
+            <section className='flex flex-col max-w-[630px] justify-start mt-[450px]'>
+                <div className='flex flex-col max-w-[630px] justify-center'>
+                    <h1 className='max-w-[630px] shadow-[0_4px_20px_0px_rgba(0,0,0,1)] text-8xl leading-[1/4] text-center '>
                         Horzees of Indarados
                     </h1>
+                    <div className='flex max-w-[500px] h-0 w-[500px] mt-4 shadow-[0_2px_7px_0px_rgba(0,0,0,1)] border-[rgba(218, 255, 251, 1)] border-2 border-solid'></div>
                     <span className='text-xl font-bold text-slate-200 '>
                         A new experience in Solana
                     </span>

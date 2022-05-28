@@ -9,9 +9,6 @@ export default function Home() {
         <div className='font-body'>
             <Navbar />
             <Hero />
-            <Carousel />
-            <Faq />
-            <Footer />
         </div>
     )
 }
