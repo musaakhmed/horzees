@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Hero = () => {
     return (
         <div className='font-avenir bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center'>
-            <nav className='flex flex-col xl:px-10 py-6  text-slate-200'>
+            <nav className='flex flex-col px-10 py-6 text-teal-100'>
                 <div className='text-xl xl:text-2xl flex flex-wrap flex-1 flex-row justify-end'>
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
                         hoi.Home
@@ -20,14 +20,20 @@ const Hero = () => {
                     <a href='' className='px-2 xl:px-6 flex-shrink-0'>
                         hoi.Races
                     </a>
-                    <a href='' className='px-2 flex-shrink-0'>
+                    <a
+                        href=''
+                        className='px-2 flex-shrink-0 object-contain object-center'
+                    >
                         <img
                             src='/SVG/discord.webp'
                             height='25px'
                             width='25px'
                         />
                     </a>
-                    <a href='' className='px-2 xl:px-2 flex-shrink-0'>
+                    <a
+                        href=''
+                        className='px-2 flex-shrink-0 object-contain object-center'
+                    >
                         <img
                             src='/SVG/twitter.webp'
                             height='25px'
@@ -47,7 +53,27 @@ const Hero = () => {
                 </div> */}
             </nav>
 
-            <section className='flex flex-col max-w-[630px] justify-start mt-[450px]'>
+            <div className='flex flex-col max-w-[630px] justify-center items-center mt-[440px] mx-auto'>
+                <div className=' flex flex-col max-w-[630px] justify-center items-center'>
+                    <div className='max-w-[630px] drop-shadow-2xl text-8xl leading-[1/4] text-center text-teal-100'>
+                        HORZEES OF INDARADOS
+                    </div>
+                    <div className='flex max-w-[500px] h-0 w-[500px] mt-4 drop-shadow-2xl border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
+                    <div className='max-w-[310px] mt-2 drop-shadow-2xl text-teal-100 text-2xl text-center justify-center items-center'>
+                        A new experience in Solana
+                    </div>
+                </div>
+                <div
+                    className=' flex flex-row max-w-5xl justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 text-xl text-center text-teal-700                    
+                        
+                    
+                    '
+                >
+                    Explore the Art
+                </div>
+            </div>
+
+            {/* <section className='flex flex-col max-w-[630px] justify-start mt-[450px]'>
                 <div className='flex flex-col max-w-[630px] justify-center'>
                     <h1 className='max-w-[630px] shadow-[0_4px_20px_0px_rgba(0,0,0,1)] text-8xl leading-[1/4] text-center '>
                         Horzees of Indarados
@@ -67,7 +93,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }
