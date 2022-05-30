@@ -53,7 +53,7 @@ const Hero = () => {
                         </p>
                     </div>
                     <p className='flex max-w-[500px] h-0 w-[500px] my-2 xl:my-4 line-shadow border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
-                    <p className='max-w-[310px] mt-2 xl:mt-4 subtitle-shadow text-teal-100 text-lg lg:text-xl xl:text-2xl text-center justify-center items-center font-semibold'>
+                    <p className='max-w-[310px] mt-2 xl:mt-4 subtitle-shadow text-teal-100 text-lg lg:text-xl xl:text-2xl text-center justify-center items-center'>
                         A new experience in Solana
                     </p>
                 </div>
