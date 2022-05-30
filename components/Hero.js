@@ -2,22 +2,22 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <div className='bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center'>
+        <div className='bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center flex flex-col justify-between'>
             <nav className='flex flex-col px-10 py-6 text-teal-100'>
-                <div className='text-xl xl:text-2xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight'>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight'>
+                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
                         Home
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
                         Paper
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
                         Vision
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
                         Team
                     </a>
-                    <a href='' className='px-2 xl:px-6 flex-shrink-0'>
+                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
                         Races
                     </a>
                     <a
@@ -41,35 +41,26 @@ const Hero = () => {
                         />
                     </a>
                 </div>
-                {/* <div className='px-2 xl:px-5 mt-5 xl:mt-0'>
-                    <div className='relative group'>
-                        <div className='absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
-                        <button className='relative px-5 py-4 xl:px-7 xl:py-3 bg-slate-900 rounded-lg leading-none'>
-                            <span className='text-purple-200 text:sm xl:text-lg font-bold group-hover:text-violet-300 transition duration-200'>
-                                Connect Wallet
-                            </span>
-                        </button>
-                    </div> 
-                </div> */}
             </nav>
 
-            <div className='flex flex-col max-w-[630px] justify-center items-center mt-[440px] mx-auto'>
-                <div className=' flex flex-col max-w-[630px] justify-center items-center'>
-                    <div className=' shadow-2xl text-7xl leading-[1/4] text-center text-teal-100 font-extrabold'>
-                        HORZEES
-                        <br />
-                        OF INDARADOS
+            <div className='flex flex-col max-w-[630px] justify-end items-center mx-auto mb-24'>
+                <div className='flex flex-col max-w-[630px] justify-center items-center'>
+                    <div className='text-7xl leading-[1/4] text-center text-teal-100 font-extrabold mb-4'>
+                        <p className='title-shadow'>
+                            HORZEES
+                            <br />
+                            OF INDARADOS
+                        </p>
                     </div>
-                    <div className='flex max-w-[500px] h-0 w-[500px] mt-4 text-shadow-2xl border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
-                    <div className='max-w-[310px] mt-2 shadow-2xl text-teal-100 text-2xl text-center justify-center items-center font-semibold'>
+                    <p className='flex max-w-[500px] h-0 w-[500px] my-4 line-shadow border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
+                    <p className='max-w-[310px] mt-4 subtitle-shadow text-teal-100 text-2xl text-center justify-center items-center font-semibold'>
                         A new experience in Solana
-                    </div>
+                    </p>
                 </div>
-                <div className=' flex flex-row max-w-5xl justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 text-2xl text-center text-teal-700 font-semibold'>
+                <button className='flex max-w-5xl button-shadow justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 text-2xl text-center text-teal-700 font-semibold'>
                     Explore the Art
-                </div>
+                </button>
             </div>
-
             {/* <section className='flex flex-col max-w-[630px] justify-start mt-[450px]'>
                 <div className='flex flex-col max-w-[630px] justify-center'>
                     <h1 className='max-w-[630px] shadow-[0_4px_20px_0px_rgba(0,0,0,1)] text-8xl leading-[1/4] text-center '>
