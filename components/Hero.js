@@ -45,19 +45,19 @@ const Hero = () => {
 
             <div className='flex flex-col max-w-[630px] justify-end items-center mx-auto mb-24'>
                 <div className='flex flex-col max-w-[630px] justify-center items-center'>
-                    <div className='text-7xl leading-[1/4] text-center text-teal-100 font-extrabold mb-4'>
+                    <div className='text-3xl lg:text-5xl xl:text-7xl leading-[1/4] text-center text-teal-100 font-extrabold mb-4'>
                         <p className='title-shadow'>
                             HORZEES
                             <br />
                             OF INDARADOS
                         </p>
                     </div>
-                    <p className='flex max-w-[500px] h-0 w-[500px] my-4 line-shadow border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
-                    <p className='max-w-[310px] mt-4 subtitle-shadow text-teal-100 text-2xl text-center justify-center items-center font-semibold'>
+                    <p className='flex max-w-[500px] h-0 w-[500px] my-2 xl:my-4 line-shadow border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
+                    <p className='max-w-[310px] mt-2 xl:mt-4 subtitle-shadow text-teal-100 text-lg lg:text-xl xl:text-2xl text-center justify-center items-center font-semibold'>
                         A new experience in Solana
                     </p>
                 </div>
-                <button className='flex max-w-5xl button-shadow justify-start mt-5 rounded-full py-4 px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 text-2xl text-center text-teal-700 font-semibold'>
+                <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-700 font-semibold'>
                     Explore the Art
                 </button>
             </div>
