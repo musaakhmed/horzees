@@ -13,14 +13,14 @@
 
 @layer utilities {
     .title-shadow {
-        text-shadow: 3px 8px 5px black;
+        text-shadow: 2px 6px 5px black;
         line-height: 85.6000006198883%;
     }
     .line-shadow {
         box-shadow: 2px 2px 0px #292929;
     }
     .subtitle-shadow {
-        text-shadow: 3px 6px 5px black;
+        text-shadow: 2px 4px 5px black;
     }
     .button-shadow {
         box-shadow: 0px 5px 20px black;
