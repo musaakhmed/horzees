@@ -8,6 +8,7 @@ module.exports = {
             backgroundImage: (theme) => ({
                 hero: "url('/images/hero.png')",
                 'bg-image': "url('/images/bg.jpeg')",
+                page: "url('/images/page-bg.png')",
             }),
             fontFamily: {
                 avenir: 'Avenir Black',
