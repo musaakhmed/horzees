@@ -1,48 +1,50 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
-    return (
-        <></>
-        // <div className='flex justify-center'>
-        //     <nav className='absolute z-10'>
-        //         <div className='pt-5 flex justify-around'>
-        //             <div className='flex top-0 items-center h-16'>
-        //                 {/*Primary Menu*/}
-        //                 <div className='flex items-center space-x-2 text-3xl'>
-        //                     <Link href='/rooms'>
-        //                         <a className='text-white transition duration-500 ease-in-out px-3 py-2 rounded-md text-md font-medium'>
-        //                             Rooms
-        //                         </a>
-        //                     </Link>
-        //                     <Link href='/about'>
-        //                         <a className='text-white transition duration-500 ease-in-out  px-3 py-2 rounded-md text-md font-medium'>
-        //                             About
-        //                         </a>
-        //                     </Link>
-        //                     <Link href='/news'>
-        //                         <a className='text-white transition duration-500 ease-in-out  px-3 py-2 rounded-md text-md font-medium'>
-        //                             News
-        //                         </a>
-        //                     </Link>
-        //                 </div>
+    const router = useRouter()
 
-        //                 {/*Call to Action Button*/}
-        //                 <div className='hidden lg:block'>
-        //                     <div class='grid gap-8 items-start justify-center'>
-        //                         <div class='relative group'>
-        //                             <div class='absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt'></div>
-        //                             <button class='relative px-7 py-4 bg-black rounded-lg leading-none flex items-center'>
-        //                                 <span class='text-white group-hover:text-gray-100 text-gradient-to-right transition duration-200'>
-        //                                     Connect Wallet
-        //                                 </span>
-        //                             </button>
-        //                         </div>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </nav>
-        // </div>
+    return (
+        <nav className='flex flex-col px-10 py-6 text-teal-100'>
+            <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirstd'>
+                <Link href='/'>
+                    <a className='px-2 xl:px-4 flex-shrink-0'>Home</a>
+                </Link>
+                <Link href='/'>
+                    <a className='px-2 xl:px-4 flex-shrink-0'>Paper</a>
+                </Link>
+                <Link href='/'>
+                    <a className='px-2 xl:px-4 flex-shrink-0'>Vision</a>
+                </Link>
+                <Link href='/team'>
+                    <a className='px-2 xl:px-4 flex-shrink-0'>Team</a>
+                </Link>
+                <Link href='/'>
+                    <a className='px-2 xl:px-4 flex-shrink-0'>Races</a>
+                </Link>
+                <Link href='/'>
+                    <a
+                        className='px-2 flex-shrink-0 object-contain object-center</Link>
+                    '
+                    >
+                        <img
+                            src='/SVG/discord.webp'
+                            height='25px'
+                            width='25px'
+                        />
+                    </a>
+                </Link>
+                <Link href=''>
+                    <a className='px-2 flex-shrink-0 object-contain object-center'>
+                        <img
+                            src='/SVG/twitter.webp'
+                            height='25px'
+                            width='25px'
+                        />
+                    </a>
+                </Link>
+            </div>
+        </nav>
     )
 }
 

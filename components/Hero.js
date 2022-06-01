@@ -1,63 +1,26 @@
 import Link from 'next/link'
+import Navbar from './Navbar'
 
 const Hero = () => {
     return (
-        <div className='bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center flex flex-col justify-between'>
-            <nav className='flex flex-col px-10 py-6 text-teal-100'>
-                <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight'>
-                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
-                        Home
-                    </a>
-                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
-                        Paper
-                    </a>
-                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
-                        Vision
-                    </a>
-                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
-                        Team
-                    </a>
-                    <a href='' className='px-2 xl:px-4 flex-shrink-0'>
-                        Races
-                    </a>
-                    <a
-                        href=''
-                        className='px-2 flex-shrink-0 object-contain object-center'
-                    >
-                        <img
-                            src='/SVG/discord.webp'
-                            height='25px'
-                            width='25px'
-                        />
-                    </a>
-                    <a
-                        href=''
-                        className='px-2 flex-shrink-0 object-contain object-center'
-                    >
-                        <img
-                            src='/SVG/twitter.webp'
-                            height='25px'
-                            width='25px'
-                        />
-                    </a>
-                </div>
-            </nav>
+        <div className='bg-hero h-screen w-screen bg-cover bg-no-repeat bg-center flex flex-col justify-between '>
+            <Navbar />
 
-            <div className='flex flex-col max-w-[630px] justify-end items-center mx-auto mb-24'>
+            <div className='flex flex-col max-w-[630px] justify-end items-center mx-auto mb-24 font-avenir'>
                 <div className='flex flex-col max-w-[630px] justify-center items-center'>
-                    <div className='text-3xl lg:text-5xl xl:text-7xl leading-[1/4] text-center text-teal-100 font-extrabold mb-4'>
+                    <div className='text-4xl lg:text-5xl xl:text-7xl leading-[1/4] text-center text-teal-100 font-extrabold mb-4'>
                         <p className='title-shadow'>
                             HORZEES
                             <br />
                             OF INDARADOS
                         </p>
                     </div>
-                    <p className='flex max-w-[500px] h-0 w-[500px] my-2 xl:my-4 line-shadow border-[rgba(218, 255, 251, 1)] border-2 border-solid' />
-                    <p className='max-w-[310px] mt-2 xl:mt-4 subtitle-shadow text-teal-100 text-lg lg:text-xl xl:text-2xl text-center justify-center items-center'>
+                    <p className='flex max-w-[500px] h-0 w-72 xl:w-[500px] my-2 xl:my-4 line-shadow border-teal-100 border-[1px] border-solid' />
+                    <p className='font-avenirstd max-w-[310px] mt-2 xl:mt-4 subtitle-shadow text-teal-100 text-lg lg:text-xl xl:text-2xl text-center justify-center items-center'>
                         A new experience in Solana
                     </p>
                 </div>
-                <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-700 font-semibold'>
+                <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-700 font-avenirstd'>
                     Explore the Art
                 </button>
             </div>

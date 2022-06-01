@@ -10,7 +10,9 @@ module.exports = {
                 'bg-image': "url('/images/bg.jpeg')",
             }),
             fontFamily: {
-                avenirblack: ['AvenirBlack'],
+                avenir: 'Avenir Black',
+                avenirstd: 'Avenir Book',
+                avenirroman: 'Avenir Roman',
             },
             animation: {
                 tilt: 'tilt 10s infinite linear',
@@ -30,5 +32,4 @@ module.exports = {
             },
         },
     },
-    plugins: [require('daisyui')],
 }
