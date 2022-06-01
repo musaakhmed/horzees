@@ -16,8 +16,8 @@ const Team = () => {
                         <p className='font-avenirstd py-2'>
                             We are all over the world, yet very close to each
                             other. Privetly doxxed and willing to be out there
-                            working tight knit with the community. Let's get to
-                            know each other.
+                            working tight knit with the community. Let&apos;s
+                            get to know each other.
                         </p>
                     </div>
                     <div className='text-[#006D77] py-3'>
