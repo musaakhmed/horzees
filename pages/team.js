@@ -5,7 +5,7 @@ const Team = () => {
         <div className='bg-page bg-contain bg-blend-normal bg-teal-50'>
             <Navbar />
             <div className='flex flex-row'>
-                <div className='flex flex-col pt-24 px-48 w-2/3 items-start justify-start'>
+                <div className='flex flex-col pt-24 pl-48 w-2/3 items-start justify-start'>
                     <div className='text-[#A44A3F]'>
                         <h1 className='text-6xl font-extrabold subtitle-shadow font-avenir py-2 '>
                             The Team
