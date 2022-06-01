@@ -14,6 +14,7 @@ module.exports = {
                 avenir: 'Avenir Black',
                 avenirstd: 'Avenir Book',
                 avenirroman: 'Avenir Roman',
+                avenirnext: 'Avenir Next',
             },
             animation: {
                 tilt: 'tilt 10s infinite linear',

@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <nav className='flex flex-col px-10 py-6 text-teal-100'>
-            <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirstd'>
+            <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirnext'>
                 <Link href='/'>
                     <a className='px-2 xl:px-4 flex-shrink-0'>Home</a>
                 </Link>

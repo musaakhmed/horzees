@@ -15,6 +15,10 @@
         font-family: 'Avenir Book';
         src: url('/public/fonts/AvenirLTStd-Book.otf') format('otf');
     }
+    @font-face {
+        font-family: 'Avenir Next';
+        src: url('/public/fonts/26301410506.otf') format('otf');
+    }
 }
 
 @layer utilities {
