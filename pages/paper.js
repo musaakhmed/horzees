@@ -5,27 +5,27 @@ const Art = () => {
     return (
         <div className='bg-page h-screen bg-contain bg-blend-darken bg-cyan-50 bg-opacity-100'>
             <Navbar />
-            <div className='flex flex-row p-7 text-[#A44A3F] relative'>
-                <section className='flex flex-col w-2/3 p-24'>
-                    <span className='text-7xl font-extrabold font-avenir py-12'>
+            <div className='flex flex-row p-7 text-[#A44A3F] '>
+                <section className='flex flex-col w-2/3 xl:p-24'>
+                    <span className='text-2xl lg:text-4xl xl:text-7xl font-extrabold font-avenir py-12'>
                         Whitepaper <br />
                         or Litepaper?
                     </span>
-                    <span className='py-12 font-avenirstd text-4xl h2-shadow'>
+                    <span className='py-12 font-avenirstd text-xl sm:text-xl lg:text-3xl xl:text-4xl h2-shadow'>
                         On a scale from 1 to 10, how lazy are you?
                     </span>
-                    <div className='w-[648px]'>
-                        <div className='flex flex-row justify-start items-start gap-8 pt-8'>
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
-                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                    <div className='w-[324px] md:w=[610px] xl:w-[648px]'>
+                        <div className='flex flex-row justify-start items-start xl:gap-8 xl:pt-8 gap-4 pt-4'>
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-1 md:w-9 md:h-2 xl:w-9 xl:h-3 bg-[#E29578] rounded-md shadow-lg' />
                         </div>
                         <div className='flex flex-row justify-between py-4'>
                             <span className='text-lg w-[130px] font-avenirnext h2-shadow leading-none'>
@@ -40,7 +40,7 @@ const Art = () => {
             </div>
             <img
                 src='/images/thor.png'
-                className='flex absolute right-0 bottom-0 h-[927px] w-[1205px]'
+                className='fixed right-0 bottom-0 h-[100px] w-[112px] md:h-[205px] md:w-[225px] lg:h-[410px] lg:w-[550px] xl:h-[820px] xl:w-[1100px]'
             />
         </div>
     )
