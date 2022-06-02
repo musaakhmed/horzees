@@ -2,10 +2,10 @@ import Navbar from '../components/Navbar'
 
 const Team = () => {
     return (
-        <div className='bg-page bg-contain bg-blend-normal bg-teal-50'>
+        <div className='bg-page bg-contain bg-blend-darken bg-teal-100 bg-opacity-100'>
             <Navbar />
             <div className='flex flex-row'>
-                <div className='flex flex-col pt-24 pl-48 w-2/3 items-start justify-start'>
+                <div className='flex flex-col pt-24 pl-12 md:pl-24 lg:pl-36 xl:pl-48 w-2/3 items-start justify-start'>
                     <div className='text-[#A44A3F]'>
                         <h1 className='text-6xl font-extrabold subtitle-shadow font-avenir py-2 '>
                             The Team
