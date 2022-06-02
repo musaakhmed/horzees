@@ -126,7 +126,7 @@ const Team = () => {
                         </button>
                     </div>
                 </div>
-                <div className='w-1/3'>
+                <div className='w-1/3 bottom-0 right-0 fixed'>
                     <img src='/images/tanjiro.png' />
                 </div>
             </div>
