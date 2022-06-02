@@ -20,9 +20,13 @@ const Hero = () => {
                         A new experience in Solana
                     </p>
                 </div>
-                <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-700 font-avenirstd'>
-                    Explore the Art
-                </button>
+                <Link href='/art'>
+                    <a>
+                        <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-100 hover:bg-teal-200 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-700 font-avenirstd'>
+                            Explore the Art
+                        </button>
+                    </a>
+                </Link>
             </div>
             {/* <section className='flex flex-col max-w-[630px] justify-start mt-[450px]'>
                 <div className='flex flex-col max-w-[630px] justify-center'>

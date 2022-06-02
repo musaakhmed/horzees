@@ -1,0 +1,49 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+
+const Art = () => {
+    return (
+        <div className='bg-page h-screen bg-contain bg-blend-darken bg-cyan-50 bg-opacity-100'>
+            <Navbar />
+            <div className='flex flex-row p-7 text-[#A44A3F] relative'>
+                <section className='flex flex-col w-2/3 p-24'>
+                    <span className='text-7xl font-extrabold font-avenir py-12'>
+                        Whitepaper <br />
+                        or Litepaper?
+                    </span>
+                    <span className='py-12 font-avenirstd text-4xl h2-shadow'>
+                        On a scale from 1 to 10, how lazy are you?
+                    </span>
+                    <div className='w-[648px]'>
+                        <div className='flex flex-row justify-start items-start gap-8 pt-8'>
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                            <div className='w-9 h-3 bg-[#E29578] rounded-md shadow-lg' />
+                        </div>
+                        <div className='flex flex-row justify-between py-4'>
+                            <span className='text-lg w-[130px] font-avenirnext h2-shadow leading-none'>
+                                laziest person to ever walk the earth
+                            </span>
+                            <span className='text-lg w-[130px] font-avenirnext h2-shadow leading-none text-right'>
+                                nope I want to read the whole thing!
+                            </span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <img
+                src='/images/thor.png'
+                className='flex absolute right-0 bottom-0 h-[927px] w-[1205px]'
+            />
+        </div>
+    )
+}
+
+export default Art
