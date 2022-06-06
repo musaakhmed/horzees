@@ -40,7 +40,7 @@ const Art = () => {
             </div>
             <img
                 src='/images/thor.png'
-                className='fixed right-0 bottom-0 h-[100px] w-[112px] md:h-[205px] md:w-[225px] lg:h-[410px] lg:w-[550px] xl:h-[820px] xl:w-[1100px]'
+                className='fixed md:right-0 lg:right-0 xl:right-0 bottom-0 h-[167px] w-[225px] lg:h-[447px] lg:w-[600px] xl:h-[671px] xl:w-[900px]'
             />
         </div>
     )
