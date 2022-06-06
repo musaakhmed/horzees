@@ -45,7 +45,7 @@ const Team = () => {
                             Arrogant
                         </h2>
                         <p className='font-avenirstd py-1'>
-                            A ream manager. Puches people, gets things done,
+                            A team manager. Puches people, gets things done,
                             keeps everyone together. At all times. Wee bit of a
                             control freak. Not a texter.
                         </p>
@@ -80,7 +80,7 @@ const Team = () => {
                             Mbee
                         </h2>
                         <p className='font-avenirstd py-1'>
-                            Loves diamonds. And horses. And Horzees.
+                            Loves diamonds. And horses. And Horzees. And Rust.
                         </p>
 
                         <h2 className='font-avenir pt-3 font-extrabold text-2xl'>
