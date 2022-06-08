@@ -22,7 +22,7 @@ const Team = () => {
                     </div>
                     <div className='text-[#006D77] py-3'>
                         <h2 className='font-avenir pt-3 font-extrabold text-2xl'>
-                            Llisa
+                            RustinC.
                         </h2>
                         <p className='font-avenirstd py-1'>
                             A true entrepreneur with a brain that never rests.
