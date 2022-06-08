@@ -4,6 +4,13 @@ import Navbar from '../components/Navbar'
 const Art = () => {
     return (
         <div className='bg-page h-screen bg-contain bg-blend-darken bg-cyan-50 bg-opacity-100'>
+            <Head>
+                <title>Paper | Horzees of Indarados</title>
+                <meta
+                    name='viewport'
+                    content='initial-scale=1.0, width=device-width'
+                />
+            </Head>
             <Navbar />
             <div className='flex flex-row p-7 text-[#A44A3F] '>
                 <section className='flex flex-col w-2/3 xl:p-24'>

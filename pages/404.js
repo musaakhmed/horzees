@@ -4,6 +4,13 @@ const Custom404 = () => {
     return (
         <div>
             <div className='bg-hero h-screen w-full bg-cover bg-no-repeat bg-center flex flex-col justify-between '>
+                <Head>
+                    <title>404 | Horzees of Indarados</title>
+                    <meta
+                        name='viewport'
+                        content='initial-scale=1.0, width=device-width'
+                    />
+                </Head>
                 <Navbar />
 
                 <div className='flex flex-col max-w-1/2 justify-start items-center mx-auto mb-24 font-avenir'>

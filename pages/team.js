@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar'
 const Team = () => {
     return (
         <div className='bg-page bg-contain bg-blend-darken bg-cyan-50 bg-opacity-100'>
+            <Head>
+                <title>Team | Horzees of Indarados</title>
+                <meta
+                    name='viewport'
+                    content='initial-scale=1.0, width=device-width'
+                />
+            </Head>
             <Navbar />
             <div className='flex flex-row'>
                 <div className='flex flex-col pt-24 pl-12 md:pl-24 lg:pl-36 xl:pl-48 w-2/3 items-start justify-start'>
