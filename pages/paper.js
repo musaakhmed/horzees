@@ -13,7 +13,7 @@ const Art = () => {
             </Head>
             <Navbar />
             <iframe
-                className='w-full px-32 my-auto h-5/6'
+                className='w-full px-4 md:px-12 lg:px-24 xl:px-32 my-auto h-5/6'
                 src='/assets/whitepaper.pdf'
             />
             {/* <div className='flex flex-row p-7 text-[#A44A3F] '>
