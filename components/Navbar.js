@@ -1,18 +1,46 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Navbar = () => {
     const router = useRouter()
 
+    const [menuOpen, setMenuOpen] = useState(false)
+
+    const handleClick = () => {
+        setMenuOpen(!menuOpen)
+        console.log('open')
+    }
+
     return (
         <nav className='flex flex-col px-10 py-6 '>
-            <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirnext h2-shadow '>
+            {/* <button
+                className='inline-flex p-3 hover:bg-gray-600 rounded md:hidden text-white ml-auto hover:text-white outline-none'
+                onClick={handleClick}
+            >
+                <svg
+                    className='w-6 h-6'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                    xmlns='http://www.w3.org/2000/svg'
+                >
+                    <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M4 6h16M4 12h16M4 18h16'
+                    />
+                </svg>
+            </button> */}
+
+            <div className='text-xl hidden md:flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirnext h2-shadow '>
                 <Link href='/'>
                     <a className='px-2 xl:px-4 flex-shrink-0 text-teal-700 no-underline '>
                         Home
                     </a>
                 </Link>
-                <Link href='/paper'>
+                <Link href='/assets/whitepaper.pdf'>
                     <a className='px-2 xl:px-4 flex-shrink-0 text-teal-700 transition-all duration-200 ease-in-out'>
                         Paper
                     </a>
@@ -32,7 +60,7 @@ const Navbar = () => {
                         Races
                     </a>
                 </Link>
-                <Link href='https://discord.com/invite/horzeesnft'>
+                <Link href='https://discord.gg/horzeesnft'>
                     <a className='px-2 flex-shrink-0 object-contain object-center'>
                         <svg
                             className='stroke-teal-500 hover:stroke-teal-700 transition-all duration-200 ease-in-out opacity-50 hover:animate-bounce'
