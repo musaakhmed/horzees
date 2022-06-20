@@ -34,7 +34,7 @@ const Navbar = () => {
                 </svg>
             </button> */}
 
-            <div className='text-xl hidden md:flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirnext h2-shadow '>
+            <div className='text-xl flex flex-wrap flex-1 flex-row justify-end items-center px-5 font-extralight font-avenirnext h2-shadow '>
                 <Link href='/'>
                     <a className='px-2 xl:px-4 flex-shrink-0 text-teal-700 no-underline '>
                         Home
