@@ -40,7 +40,7 @@ const Navbar = () => {
                         Home
                     </a>
                 </Link>
-                <Link href='/assets/whitepaper.pdf'>
+                <Link href='/paper'>
                     <a className='px-2 xl:px-4 flex-shrink-0 text-teal-700 transition-all duration-200 ease-in-out'>
                         Paper
                     </a>

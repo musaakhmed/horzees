@@ -12,7 +12,11 @@ const Art = () => {
                 />
             </Head>
             <Navbar />
-            <div className='flex flex-row p-7 text-[#A44A3F] '>
+            <iframe
+                className='w-full px-32 my-auto h-5/6'
+                src='/assets/whitepaper.pdf'
+            />
+            {/* <div className='flex flex-row p-7 text-[#A44A3F] '>
                 <section className='flex flex-col w-2/3 xl:p-24'>
                     <span className='text-2xl lg:text-4xl xl:text-7xl font-extrabold font-avenir py-12'>
                         Whitepaper <br />
@@ -48,7 +52,7 @@ const Art = () => {
             <img
                 src='/images/thor.png'
                 className='fixed md:right-0 lg:right-0 xl:right-0 bottom-0 h-[167px] w-[225px] lg:h-[447px] lg:w-[600px] xl:h-[671px] xl:w-[900px]'
-            />
+            /> */}
         </div>
     )
 }
