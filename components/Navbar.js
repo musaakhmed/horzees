@@ -68,8 +68,8 @@ const Navbar = () => {
             <div
                 className={`${' translate-x-full md:translate-x-0'} ${
                     menuOpen
-                        ? 'translate-x-0 transition-all ease-in-out duration-500 max-h-screen'
-                        : 'translate-x-full md:translate-x-0 transition-all ease-in-out duration-500 max-h-0'
+                        ? 'translate-x-0 transition-all ease-in-out duration-500 max-h-screen opacity-100 '
+                        : 'translate-x-full md:translate-x-0 max-h-0 hidden opacity-0'
                 }`}
             >
                 <div className='max-h-screen md:max-h-16 text-xl bg-white bg-opacity-70 md:bg-transparent flex flex-col md:flex-wrap flex-1 md:flex-row justify-center md:justify-end items-center md:px-5 font-semibold md:font-extralight font-avenirnext h2-shadow '>
