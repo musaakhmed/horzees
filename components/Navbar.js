@@ -17,7 +17,7 @@ const Navbar = () => {
 
     return (
         <nav className='flex flex-col md:px-10 pt-6'>
-            <section className='flex justify-between items-center px-2 pb-6 md:hidden '>
+            <section className='flex justify-between items-center px-6 pb-6 md:hidden '>
                 <span className='font-avenirnext h2-shadow text-xl text-teal-600 font-semibold'>
                     horzees
                 </span>
@@ -66,13 +66,13 @@ const Navbar = () => {
                 </svg>
             </button> */}
             <div
-                className={`${'translate-x-full md:translate-x-0'} ${
+                className={`${' translate-x-full md:translate-x-0'} ${
                     menuOpen
-                        ? 'translate-x-0 transition-all ease-in-out duration-500'
-                        : 'translate-x-full md:translate-x-0 transition-all ease-in-out duration-500'
+                        ? 'translate-x-0 transition-all ease-in-out duration-500 max-h-screen'
+                        : 'translate-x-full md:translate-x-0 transition-all ease-in-out duration-500 max-h-0'
                 }`}
             >
-                <div className='text-xl h-screen md:h-16 bg-white bg-opacity-70 md:bg-transparent flex flex-col md:flex-wrap flex-1 md:flex-row justify-center md:justify-end items-center md:px-5 font-semibold md:font-extralight font-avenirnext h2-shadow '>
+                <div className='max-h-screen md:max-h-16 text-xl bg-white bg-opacity-70 md:bg-transparent flex flex-col md:flex-wrap flex-1 md:flex-row justify-center md:justify-end items-center md:px-5 font-semibold md:font-extralight font-avenirnext h2-shadow '>
                     <Link href='/'>
                         <a className='my-3 py-3 md:my-0 md:py-0 md:px-2 xl:px-4 flex-shrink-0 text-teal-700 md:text-teal-700 transition-all duration-200 ease-in-out'>
                             Home
