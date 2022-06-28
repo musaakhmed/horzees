@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 const Art = () => {
@@ -49,6 +50,7 @@ const Art = () => {
                 src='/images/thor.png'
                 className='fixed md:right-0 lg:right-0 xl:right-0 bottom-0 h-[167px] w-[225px] lg:h-[447px] lg:w-[600px] xl:h-[671px] xl:w-[900px]'
             />
+            <Footer />
         </div>
     )
 }

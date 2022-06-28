@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 const Team = () => {
@@ -138,6 +139,7 @@ const Team = () => {
                     <img src='/images/tanjiro.png' />
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

@@ -3,17 +3,16 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            {' '}
             <div>
-                <footer className='footer footer-center p-10 bg-violet-900 text-primary-content'>
+                <footer className='footer footer-center p-10  text-[#006D77] text-primary-content'>
                     <div>
-                        <span className='font-bold'>
+                        <span className='font-bold font-avenirlt '>
                             Horzees. <br />
                             Exploring Indarados since 2022
                         </span>
                         <span>Copyright © 2022 - All right reserved</span>
                     </div>
-                    <div>
+                    {/* <div>
                         <div className='grid grid-flow-col gap-4'>
                             <a>
                                 <svg
@@ -49,7 +48,7 @@ const Footer = () => {
                                 </svg>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </footer>
             </div>
         </div>
