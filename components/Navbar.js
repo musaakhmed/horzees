@@ -66,10 +66,10 @@ const Navbar = () => {
                 </svg>
             </button> */}
             <div
-                className={`${''} ${
+                className={`${
                     menuOpen
-                        ? 'translate-y-0 transition-all ease duration-700 max-h-screen opacity-100 '
-                        : '-translate-y-full md:translate-x-0 transition-all ease duration-500 max-h-0 opacity-0 md:opacity-100'
+                        ? 'translate-y-0 transition-all ease-in-out duration-700 max-h-screen opacity-100 '
+                        : '-translate-y-full md:translate-y-0 transition-all ease-in-out duration-500 max-h-0 opacity-0 md:opacity-100'
                 }`}
             >
                 <div className='max-h-screen md:max-h-16 text-xl bg-white bg-opacity-70 md:bg-transparent flex flex-col md:flex-wrap flex-1 md:flex-row justify-center md:justify-end items-center md:px-5 font-semibold md:font-extralight font-avenirnext h2-shadow '>
