@@ -126,19 +126,19 @@ const Team = () => {
                             insights, he truly took the project somewhere else
                             being the brilliant visionary he is.
                         </p>
-                        <p className='font-avenirstd py-1 font-semibold'>
+                        <p className='font-avenir py-1 font-bold'>
                             <a href='https://www.imd.org/faculty/professors/arturo-bris/'>
                                 Read more about him!
                             </a>
                         </p>
                     </div>
-                    <div className='pb-10'>
+                    {/* <div className='pb-10'>
                         <Link href='/art'>
                             <button className='flex max-w-5xl button-shadow justify-start mt-2 xl:mt-5 rounded-full py-2 px-5 xl:py-4 xl:px-10 bg-teal-700 hover:bg-teal-500 transition-all ease-in-out duration-300 xl:text-2xl lg:text-xl text-lg text-center text-teal-100 font-avenirstd'>
                                 Horzees of Indarados
                             </button>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='w-1/3 bottom-0 right-0 fixed'>
                     <img src='/images/tanjiro.png' />

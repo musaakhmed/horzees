@@ -6,11 +6,11 @@ const Footer = () => {
             <div>
                 <footer className='footer footer-center p-10  text-[#006D77] text-primary-content'>
                     <div>
-                        <span className='font-bold font-avenirlt '>
+                        <span className='font-semibold font-avenirlt '>
                             Horzees. <br />
                             Exploring Indarados since 2022
                         </span>
-                        <span>Copyright © 2022 - All right reserved</span>
+                        <p>Copyright © 2022 - All right reserved</p>
                     </div>
                     {/* <div>
                         <div className='grid grid-flow-col gap-4'>

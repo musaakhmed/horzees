@@ -18,9 +18,7 @@ const Navbar = () => {
     return (
         <nav className='flex flex-col md:px-10 pt-6'>
             <section className='flex justify-between items-center px-6 pb-6 md:hidden '>
-                <span className='font-avenirnext h2-shadow text-xl text-teal-600 font-semibold'>
-                    horzees
-                </span>
+                <span className='font-avenirnext h2-shadow text-xl text-teal-600 font-semibold'></span>
                 <button
                     className='flex flex-col h-6 w-6 justify-center items-end rounded group'
                     onClick={handleClick}
